@@ -1,0 +1,23 @@
+Ubuntu
+sudo apt-get install nodejs
+sudo apt-get install npm
+sudo ln -s /usr/bin/nodejs /usr/bin/node
+
+Mac OS
+brew install node
+brew install npm
+
+Windows 
+download and install
+
+npm -v
+
+sudo npm install -g create-react-app
+
+create-react-app demo
+
+cd demo
+
+npm start
+
+download sublime
