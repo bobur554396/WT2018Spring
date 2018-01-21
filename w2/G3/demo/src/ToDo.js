@@ -27,19 +27,13 @@ class ToDo extends Component {
     });
   }
 
-  deleteItem(index){
-    this.setState({
-      items: this.state.items.filter(function(el, i){ return i !== index })
-    });
-  }
-
   render() {
     return (
       <div>
         <ul>
           {
             this.state.items.map((item, index) =>
-              <li key={index}>{item}<button onClick={this.deleteItem.bind(this, index)}>Delete</button></li>
+              <li key={index}>{item}</li>
             )
           }
         </ul>  

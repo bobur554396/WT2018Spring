@@ -32,21 +32,4 @@ class Clock extends Component {
 }
 
 
-
-// class Clock extends Component {
-
-//   componentDidMount() {
-//     setInterval(this.tick, 1000);
-//   }
-
-//   state = { date: new Date() };
-//   tick = () => this.setState({ date: new Date() });
-//   render() {
-//     return (
-//       <h3>{this.state.date.toString()}</h3>
-//     );
-//   }
-// }
-
-
 export default Clock;
