@@ -13,7 +13,7 @@ npm install
 ```shell
 npm start
 ```
-- find your app in the browser
+- find your app in the browser. If your server is running on port ```3000```, use other available port. For instance, ```3001```
 ```shell
 http://localhost:3000/
 ```
