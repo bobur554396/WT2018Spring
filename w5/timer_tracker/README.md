@@ -16,7 +16,6 @@ npm start
 - find your app in the browser
 ```shell
 Local:            http://localhost:3000/
-On Your Network:  http://192.168.0.109:3000/
 ```
 
 
