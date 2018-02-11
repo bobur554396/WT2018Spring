@@ -15,7 +15,7 @@ npm start
 ```
 - find your app in the browser
 ```shell
-Local:            http://localhost:3000/
+http://localhost:3000/
 ```
 
 
