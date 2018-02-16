@@ -1,0 +1,11 @@
+{
+  "name": "NodeJS server",
+  "version": "1.1.0",
+  "author": "bobur",
+  "dependencies": {
+    "body-parser": "1.14.1",
+    "express": "4.13.3",
+    "fs": "0.0.2",
+    "path": "0.12.7"
+  }
+}
