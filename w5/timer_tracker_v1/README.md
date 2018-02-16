@@ -3,7 +3,7 @@
 ### Usage
 - enter to rood folder of project
 ```shell
-cd /path/timer_tracker
+cd /path/timer_tracker_v1
 ```
 - run npm install command to install dependencies
 ```shell
