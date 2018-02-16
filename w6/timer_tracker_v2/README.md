@@ -1,4 +1,7 @@
-## Static version of Time-Tracking app
+## 3. Determine what should be stateful
+## 4. Determine in which component each piece of state should live
+## 5. Hard-code initial states
+## 6. Add inverse data flow
 
 ### Usage
 - enter to rood folder of project

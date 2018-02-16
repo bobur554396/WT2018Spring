@@ -1,4 +1,5 @@
-## Static version of Time-Tracking app
+## 1. Break the app into components
+## 2. Build a static version of the app
 
 ### Usage
 - enter to rood folder of project
