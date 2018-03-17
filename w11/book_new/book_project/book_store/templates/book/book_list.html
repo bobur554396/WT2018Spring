@@ -1,0 +1,21 @@
+
+{% extends "base.html" %}
+
+  
+{% block content %}
+      
+      <div class="well">
+        <h1>{{book_list|length}} books</h1>
+        {% for book in book_list %}
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h2><a href="{% url 'book_details' book_id=book.id %}">{{book}}</a></h2>
+              <h4>{{book.autor}}</h4>
+              <p class="pull-right">{{book.created_at}}</p>
+              <p class="pull-left">{{book.updated_at}}</p>
+            </div>
+          </div>
+      {% endfor %}
+      </div>
+
+{% endblock content %}

@@ -1,0 +1,18 @@
+
+{% extends "base.html" %}
+
+  
+{% block content %}
+      
+      <div class="well">
+        <h1>{{author_list|length}} authors</h1>
+        {% for author in author_list %}
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <h3><a href="{% url 'author_details' author_id=author.id %}">{{author}}</a></h3>
+            </div>
+          </div>
+      {% endfor %}
+      </div>
+
+{% endblock content %}
