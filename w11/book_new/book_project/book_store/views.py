@@ -1,6 +1,4 @@
 from django.shortcuts import render
-from django.http import HttpResponse
-from django.core.serializers import serialize
 
 from book_store.models import Book, Author
 

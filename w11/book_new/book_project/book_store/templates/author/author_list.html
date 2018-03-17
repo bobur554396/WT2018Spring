@@ -5,7 +5,15 @@
 {% block content %}
       
       <div class="well">
-        <h1>{{author_list|length}} authors</h1>
+        <h1>
+          {% if author_list|length > 1 %}
+            {{author_list|length}} authors
+          {% elif author_list|length == 1 %}
+             {{author_list|length}} author
+          {% else %}
+              authors list empty
+          {% endif %}
+        </h1>
         {% for author in author_list %}
           <div class="panel panel-default">
             <div class="panel-body">
