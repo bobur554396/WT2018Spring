@@ -32,6 +32,7 @@ class ToDo extends Component {
   buttonClicked() {
 
     const data = {
+      'id': this.state.items[this.state.items.length - 1].id + 1,
       'title': this.state.inputValue,
       'created_at': new Date().toISOString()
     }
